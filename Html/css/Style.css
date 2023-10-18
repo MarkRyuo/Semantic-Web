@@ -58,3 +58,20 @@ body {
   text-shadow: 10px 2px 5px white;
 
 }
+
+/* main */
+
+main {
+  display: flex;
+  margin-top: 200px;
+  padding:50px;
+}
+
+.sec-1 .image img{
+  border-radius: 500px;
+}
+
+.sec-2 .article-1 h1 {
+  text-align: center;
+  font-size: 50px;
+}
