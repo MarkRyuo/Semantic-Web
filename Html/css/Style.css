@@ -89,4 +89,22 @@ main {
   font-family: 'PT Serif', serif;
 }
 
+.article-1 h1:hover {
+  letter-spacing: 10px;
+  transition: 1s;
+}
+
 /* Footer */
+
+footer {
+  margin-top: 400px;
+  height: 400px;
+  background-color: rgba(0, 0, 0, 0.712);
+}
+
+footer .address p {
+  color: white;
+  font-size: 30px;
+  text-align:center;
+  padding-top: 40px;
+}
