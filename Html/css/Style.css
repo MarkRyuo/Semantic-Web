@@ -1,3 +1,5 @@
+ @import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -26,7 +28,11 @@ body {
   gap: 20px;
   background-color: rgba(0, 0, 0, 0.862);
   box-shadow: 1px 2px 40px rgba(0, 0, 0, 0.568);
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 10px;
+  font-family: 'Tilt Neon', sans-serif; 
 }
+
 
 .logo {
   margin-right: auto;
@@ -52,3 +58,4 @@ body {
   text-shadow: 10px 2px 5px white;
 
 }
+
