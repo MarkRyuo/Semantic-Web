@@ -9,3 +9,25 @@
   width: 110px;
   border-radius: 50px;
 }
+
+/* Header Navigation */
+
+.navigation {
+  position: fixed;
+  top: 0;
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  gap: 20px;
+}
+
+.logo {
+  margin-right: auto;
+  padding-left: 30px;
+  padding-top: 10px;
+}
+
+.nav {
+  font-size: 25px;
+  padding: 30px 40px 0px 30px;
+}
