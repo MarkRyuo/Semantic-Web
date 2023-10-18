@@ -92,6 +92,12 @@ main {
 .article-1 h1:hover {
   letter-spacing: 10px;
   transition: 1s;
+  transition-delay: 50ms;
+}
+
+.sec-1 .image img:hover {
+  transition: 1s;
+  box-shadow: 10px 10px 100px rgba(39, 151, 255, 0.712);
 }
 
 /* Footer */
