@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: rgb(255, 255, 255)0.741);
+  background-color: rgb(255, 255, 255 0.741);
 }
 
 /* Resizing the Image First */
@@ -58,4 +58,3 @@ body {
   text-shadow: 10px 2px 5px white;
 
 }
-
