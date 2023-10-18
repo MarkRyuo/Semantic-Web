@@ -2,3 +2,10 @@
   margin: 0;
   padding: 0;
 }
+
+/* Resizing the Image First */
+
+.navigation .logo img {
+  width: 110px;
+  border-radius: 50px;
+}
