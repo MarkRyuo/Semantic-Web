@@ -2,3 +2,15 @@
   margin: 0;
   padding: 0;
 }
+
+/* (*) select all */
+
+:root {
+  --backgroundColor: rgb(88, 129, 87);
+  --colorText: #344E41;
+}
+
+body {
+  background-color: var(--backgroundColor);
+  font-size: var(--colorText);
+}
