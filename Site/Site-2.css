@@ -18,6 +18,7 @@
   font-family: 'Times New Roman', Times, serif;
   font-size:2rem;
   background-color: antiquewhite;
+  margin: 10px;
 }
 
 .main-1 .Text-1 p{
@@ -29,7 +30,19 @@
 }
 
 
-.main-2 {
+.main-2 .sec-1 {
   display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: space-around;
+  margin: 50px;
+  border: 1px solid black;
+  min-height: 30rem;
 
+}
+
+.main-2 .sec-1 p {
+  font-size: 1.5rem;
+  background-color: bisque;
+  margin: 0.5rem;
 }
