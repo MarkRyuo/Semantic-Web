@@ -8,3 +8,18 @@ main {
   border: 1px solid black;
   min-height: 50vh;
 }
+
+.Text-2 {
+  border: 1px solid black;
+  font-family: 'Times New Roman', Times, serif;
+  font-size:2rem;
+  background-color: antiquewhite;
+}
+
+main .Text-1 p{
+  font-size: 1.4rem;
+}
+
+main .Text-3 p{
+  font-size: 1.4rem;
+}
