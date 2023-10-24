@@ -11,9 +11,6 @@
 
 /* always 16px font all browser */
 
-header {
-  height: auto;
-}
 
 header .navigation {
   margin: 2rem;
@@ -31,8 +28,8 @@ header .Main-section .sec-1 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  border: 1px solid black;
-  height: 500px;
+  /* border: 1px solid black; */
+  height: 600px;
 }
 
 .Main-section .ScentShop {
@@ -40,7 +37,24 @@ header .Main-section .sec-1 {
 }
 
 .Main-section {
-  margin: 40px;
+  margin: 35px;
   height: 500px;
   align-content: center;
+}
+
+.navigation .nav-link {
+  display: flex;
+  gap: 2em;
+
+}
+
+.nav-link li a {
+  font-size: 1rem;
+  color: cadetblue;
+  font-size: 1.5rem;
+
+}
+
+.nav-link li {
+  padding: 1.2em;
 }
