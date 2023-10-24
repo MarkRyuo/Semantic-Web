@@ -1,6 +1,8 @@
 * {
   margin: 0;
   padding: 0;
+  list-style: none;
+  text-decoration: none;
 }
 
 :root {
@@ -8,3 +10,26 @@
 }
 
 /* always 16px font all browser */
+
+header .navigation {
+  margin: 2rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navigation .Logo {
+  margin-right: auto;
+  font-size: 3rem;
+}
+
+header .Main-section .sec-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+}
+
+.Main-section {
+
+}
