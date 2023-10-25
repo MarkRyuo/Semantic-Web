@@ -4,8 +4,20 @@
   font-family: fantasy;
 }
 
+html {
+  /* root for sizing */
+  font-size: 30px;
+}
+
 
 .parent-container {
   border: 1px solid black;
+  display: flex;
+  height: 40vh;
+  width: 40vw;
+  margin: 5rem;
 }
 
+.divs {
+  border: 1px solid red;
+}
