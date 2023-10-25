@@ -16,8 +16,11 @@ html {
   height: 40vh;
   width: 40vw;
   margin: 5rem;
+  flex-direction: row;
 }
 
 .divs {
   border: 1px solid red;
+  width: 3em;
+  height: 3em;
 }
