@@ -28,21 +28,23 @@ html {
 
 .sec-1{
   /* this is a sub-parent of main-1 */
-  display: inline-block;
-  /* flex-direction:column; */
-  flex-direction: row;
   font-size: 2rem;
-  flex-wrap: wrap;
   border: var(--border);
   width: 50rem;
+  height: 40rem;
+  flex-wrap: wrap;
 }
 
 .box {
+  display: inline-block;
+  flex-wrap: wrap;
   border: 1px red solid;
+  width: 2rem;
   height: 5rem;
-  width: 14em;
   text-align: center;
   padding: 0.8rem;
+  margin: 1rem;
+
 }
 
 
