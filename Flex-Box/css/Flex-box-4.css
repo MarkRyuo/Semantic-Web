@@ -9,6 +9,14 @@
   --border-Color: #321D72;
 }
 
+/* Resize the image */
+
+main .sec-1 img {
+  width: 10rem;
+  height: 13rem;
+  flex-wrap: wrap;
+}
+
 html {
   font-size: 30px;
 }
@@ -18,10 +26,18 @@ body {
 
 main {
   margin: 4.6rem ;
-  background-color: var(--main-Color);
 }
 
 main .sec-1 {
+  min-width: 300px;
   border: 0.1rem solid var(--border-Color);
+  display: flex;
+  /* flex-direction: column; */
+  flex-wrap: wrap-reverse;
+  justify-content: space-evenly;
+  background-color: var(--main-Color);
+}
 
+main .sec-1 img {
+  flex-wrap: wrap;
 }
