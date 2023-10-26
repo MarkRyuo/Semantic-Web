@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+}
+
+:root {
+  --box-1:aliceblue;
+  --box-2: antiquewhite;
+  --box-3: azure;
+  --box-4:beige;
+  --box-5: bisque;
+  --box-6: blanchedalmond;
+  --box-7:burlywood;
+  --border: 1px black solid;
+}
