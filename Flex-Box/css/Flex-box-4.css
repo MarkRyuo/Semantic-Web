@@ -26,6 +26,8 @@ body {
 
 main {
   margin: 4.6rem ;
+  height: 75vh;
+  border: 1px solid black;
 }
 
 main .sec-1 {
