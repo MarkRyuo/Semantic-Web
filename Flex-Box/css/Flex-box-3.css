@@ -2,3 +2,15 @@
   margin: 0;
   padding: 0;
 }
+
+html {
+  font-size: 30px;
+}
+
+.main-1 {
+  height: 50vh;
+  width: 60vw;
+  margin: 10rem;
+  border: 0.1rem;
+  
+}
