@@ -8,9 +8,23 @@ html {
 }
 
 .main-1 {
-  height: 50vh;
-  width: 60vw;
-  margin: 10rem;
-  border: 0.1rem;
+  height: auto;
+  width: 98vw;
+  margin: 0.5rem;
+  border: 0.1rem solid black;
   
+}
+
+.div-parent {
+  display: flex;
+  /* flex-direction: column; */
+  /* justify-content: center; */
+  flex-wrap: wrap;
+}
+
+.div-number {
+  border: 0.1rem solid red;
+  width: 9.5rem;
+  height: 3.8rem;
+  text-align: center;
 }
