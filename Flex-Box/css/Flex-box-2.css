@@ -10,5 +10,41 @@
   --box-5: bisque;
   --box-6: blanchedalmond;
   --box-7:burlywood;
-  --border: 1px black solid;
+  --border: 2px black solid;
 }
+
+html {
+  font-size: 20px;
+}
+
+.main-1 {
+  /* I think this is parent */
+  /* border: var(--border); */
+  margin: 3rem;
+  /* display: inline-block;
+  flex-direction: row;
+  width: 50rem; */
+}
+
+.sec-1{
+  /* this is a sub-parent of main-1 */
+  display: inline-block;
+  /* flex-direction:column; */
+  flex-direction: row;
+  font-size: 2rem;
+  flex-wrap: wrap;
+  border: var(--border);
+  width: 50rem;
+}
+
+.box {
+  border: 1px red solid;
+  height: 5rem;
+  width: 14em;
+  text-align: center;
+  padding: 0.8rem;
+}
+
+
+
+
