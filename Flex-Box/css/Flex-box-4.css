@@ -3,3 +3,19 @@
   margin: 0;
 }
 
+:root {
+  --bgBackground :#D9D9D9;
+  --main-Color: #886CDA;
+  --border-Color: #321D72;
+}
+
+html {
+  font-size: 30px;
+}
+body {
+  background-color: var(--bgBackground);
+}
+
+main .sec-1 {
+  border: 0.2rem solid var(--border-Color);
+}
