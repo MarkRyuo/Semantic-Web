@@ -5,8 +5,13 @@
 
 main {
   display: flex;
+  flex-direction: column;
 }
 
 .Parent-1 {
+  border: 1px solid black;
+}
+
+.Parent-2 {
   border: 1px solid black;
 }
