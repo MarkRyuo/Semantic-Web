@@ -6,3 +6,7 @@
 main {
   display: flex;
 }
+
+.Parent-1 {
+  border: 1px solid black;
+}
