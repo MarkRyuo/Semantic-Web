@@ -30,6 +30,7 @@ main {
   width: 160px;
   background-color:aliceblue;
   margin: 20px;
+  display: flex;
 }
 
 .Parent-1 {
