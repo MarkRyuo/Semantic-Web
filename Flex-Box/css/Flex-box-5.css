@@ -11,6 +11,8 @@ main {
   border: 1px solid black;
   height: 80vh;
   width: 90vw;
+  /* align-items: center; */
+  justify-content: flex-end;
 }
 
 .Parent-1 {
@@ -25,3 +27,6 @@ main {
   width: 160px;
 }
 
+.Parent-1 {
+  margin-right: auto;
+}
