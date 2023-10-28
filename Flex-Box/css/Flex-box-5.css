@@ -27,6 +27,7 @@ main {
   border: 1px solid black;
   font-size: 32px;
   width: 160px;
+  background-color:aliceblue;
 }
 
 .Parent-1 {
