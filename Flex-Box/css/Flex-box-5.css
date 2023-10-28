@@ -13,6 +13,7 @@ main {
   width: 90vw;
   /* align-items: center; */
   justify-content: flex-end;
+  flex-wrap: wrap;
 }
 
 .Parent-1 {
