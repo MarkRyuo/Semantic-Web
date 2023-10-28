@@ -9,8 +9,8 @@ main {
   font-family: 'Times New Roman', Times, serif;
   margin: 30px;
   border: 1px solid black;
-  height: 1000px;
-  width: 500px;
+  height: 80vh;
+  width: 90vw;
 }
 
 .Parent-1 {
