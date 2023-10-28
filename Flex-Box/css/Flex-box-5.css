@@ -24,13 +24,14 @@ main {
   margin: 20px;
   display: flex;
   justify-content: center;
+  align-items: flex-end;
 }
 
 .Parent-2 {
   border: 1px solid black;
   font-size: 32px;
   width: 160px;
-  background-color:aliceblue;
+  background-color:rgb(108, 186, 254);
   margin: 20px;
   display: flex;
   justify-content: center;
