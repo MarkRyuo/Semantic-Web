@@ -4,9 +4,13 @@
 }
 
 main {
-  display: flex;
+  display: inline-flex;
   /* flex-direction: column; */
   font-family: 'Times New Roman', Times, serif;
+  margin: 30px;
+  border: 1px solid black;
+  height: 1000px;
+  width: 500px;
 }
 
 .Parent-1 {
