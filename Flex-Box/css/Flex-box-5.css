@@ -19,6 +19,8 @@ main {
   border: 1px solid black;
   font-size: 32px;
   width: 150px;
+  margin-right: auto;
+  background-color: aquamarine;
 }
 
 .Parent-2 {
