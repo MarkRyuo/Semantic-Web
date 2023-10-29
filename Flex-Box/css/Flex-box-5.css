@@ -5,6 +5,8 @@
   padding: 0;
 }
 
+/*  the meaning of this (*) is select all */
+
 main {
   display: inline-flex;
   /* flex-direction: column; */
