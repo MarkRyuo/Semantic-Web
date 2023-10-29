@@ -26,6 +26,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: flex-end;
+  flex-wrap: wrap;
 }
 
 .Parent-2 {
@@ -37,6 +38,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap-reverse;
 }
 
 .Parent-1 {
