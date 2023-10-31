@@ -21,10 +21,12 @@ header {
 
 .navigation {
   display: flex;
+  justify-content: flex-end;
 }
 
-/* li parent is ul this is ul the parent */
-
-.nav-link {
+.nav-links {
+  /* li parent is ul this is ul the parent */
   display: flex;
+  
 }
+
