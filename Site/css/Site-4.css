@@ -10,8 +10,8 @@
 }
 
 body {
-  width: 1920px;
-  height: 915px;
+  /* width: 1920px;
+  height: 915px; */
   background-color: var(--bg-Color);
 }
 
