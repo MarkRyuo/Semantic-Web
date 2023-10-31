@@ -15,5 +15,16 @@ body {
 
 header {
   width: 1920px;
-  height: 140px;
+  height: 100px;
+  box-shadow: 2px 2px 10px black;
+}
+
+.navigation {
+  display: flex;
+}
+
+/* li parent is ul this is ul the parent */
+
+.nav-link {
+  display: flex;
 }
