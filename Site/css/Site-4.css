@@ -52,3 +52,15 @@ header {
   
 }
 
+
+/* Rule */
+
+/* @media (min-width: 520px) {
+  .navigation {
+    height: 100px;
+  display: flex;
+  justify-content:flex-end;
+  align-items:center;
+  gap: 5rem;
+  }
+} */
