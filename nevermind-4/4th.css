@@ -11,20 +11,23 @@
   --bg-Color: hsl(347, 100%, 98%);
   --bg-color-Aside: hsl(343, 79%, 36%);
   --bg-color-Aside-logo: hsl(343, 77%, 31%);
+  --bg-color-Aside-shadow: hsl(343, 78%, 18%);
 }
 
 body {
   background-color: var(--bg-Color);
 
   display: flex;
+  gap: 2vw;
 }
 
 aside {
   /* border: 1px solid black; */
 
-  position: relative;
+
 
   background-color: var(--bg-color-Aside);
+  box-shadow: 3px 10px 15px var(--bg-color-Aside-shadow);
 
   display: flex;
   flex-direction: column;
@@ -34,6 +37,9 @@ aside {
 
   width: 15vw;
   height: 100vh;
+
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
 
 
 }
@@ -52,6 +58,8 @@ aside {
 
   background-color: var(--bg-color-Aside-logo);
   color: #ffffff;
+  border-top-right-radius: 40px;
+  box-shadow: 1px 1px 15px var(--bg-color-Aside-shadow);
 }
 
 /* Button Navigation */
@@ -131,6 +139,7 @@ aside {
 
 main {
   border: 1px solid black;
-  width: 90vw;
-  height: 99vh;
+  margin-top: 3vh;
+  width: 80vw;
+  height: 90vh;
 }
