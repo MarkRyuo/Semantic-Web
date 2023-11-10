@@ -1,0 +1,13 @@
+
+
+
+
+.parent-Table {
+  border: 1px solid black;
+  border-radius: 20px;
+  height: 20vh;
+}
+
+.table-Header th {
+  border: 1px solid black;
+}
