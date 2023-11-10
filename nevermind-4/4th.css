@@ -10,14 +10,19 @@
 :root {
   --bg-Color: hsl(347, 100%, 98%);
   --bg-color-Aside: hsl(343, 79%, 36%);
+  --bg-color-Aside-logo: hsl(343, 77%, 31%);
 }
 
 body {
   background-color: var(--bg-Color);
+
+  display: flex;
 }
 
 aside {
   /* border: 1px solid black; */
+
+  position: relative;
 
   background-color: var(--bg-color-Aside);
 
@@ -36,11 +41,17 @@ aside {
 /* Logo */
 
 .Logo {
-  border: 1px solid black;
+  /* border: 1px solid black; */
 
   display: flex;
   flex-direction: column;
-  height: 15vh;
+  justify-content: space-around;
+  align-items: center;
+
+  height: 17vh;
+
+  background-color: var(--bg-color-Aside-logo);
+  color: #ffffff;
 }
 
 /* Button Navigation */
@@ -113,4 +124,13 @@ aside {
 
 .btn:hover .btn-text-two {
   top: 50%;
+}
+
+
+/* Main */
+
+main {
+  border: 1px solid black;
+  width: 90vw;
+  height: 99vh;
 }
