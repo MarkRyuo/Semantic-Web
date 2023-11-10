@@ -23,7 +23,7 @@ aside {
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
-  gap: 15vh;
+  gap: 10vh;
 
   width: 15vw;
   height: 100vh;
@@ -31,15 +31,28 @@ aside {
 
 }
 
+/* Logo */
+
+.Logo {
+  border: 1px solid black;
+
+  display: flex;
+  height: 15vh;
+}
+
+/* Button Navigation */
 .button-Nav {
   border: 1px solid black;
 
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: center;
 
   height: 50vh;
   width: 10vw;
+
 
 
 }
