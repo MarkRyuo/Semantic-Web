@@ -43,9 +43,17 @@
 
   width: 20vw;
   height: 25vh;
+  gap: 1.5rem;
 }
 
 .input input {
   width: 13rem;
   height: 1.5rem;
+}
+
+/* fa-user-shield icon */
+
+.fa-user-shield {
+
+  font-size: 2.5rem; /* Not sure */
 }
