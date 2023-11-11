@@ -1,3 +1,8 @@
+/* Import Font Here */
+
+
+
+
 
 
 .main-Conformation {
@@ -17,5 +22,12 @@
 
   height: 10vh;
   
+
+}
+
+/* table-Section */
+.table-Section {
+  border: 1px solid black;
+
 
 }
