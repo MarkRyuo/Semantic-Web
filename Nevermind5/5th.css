@@ -1,0 +1,19 @@
+/* Import the font here */
+
+
+
+/* Main - parent-Report-Missing */
+.parent-Report-Missing {
+  border: 1px solid black;
+}
+
+
+/* nav-Report ---- navigation here */
+
+.nav-Report {
+  border: 1px solid black;
+
+  display: flex;
+  align-items: center;
+  
+}
