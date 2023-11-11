@@ -1,0 +1,21 @@
+
+
+.main-Conformation {
+  border: 1px solid black;
+
+  height: 70vh;
+}
+
+/* report-missing */
+
+.nav-Report {
+  border: 1px solid black;
+
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+
+  height: 10vh;
+  
+
+}
