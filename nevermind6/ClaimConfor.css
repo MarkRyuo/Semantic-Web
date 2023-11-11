@@ -9,6 +9,13 @@
   border: 1px solid black;
 
   height: 70vh;
+  width: 60vw;
+
+  display: flex;
+  flex-direction: column;
+  gap: 10vh;
+
+
 }
 
 /* report-missing */
@@ -30,5 +37,14 @@
 .table-Section {
   border: 1px solid black;
 
+  width: 55vw;
+  height: 40vh;
 
+}
+
+.sec-table {
+  border: 1px solid black;
+
+  width: 50vw;
+  height: 30vh;
 }
